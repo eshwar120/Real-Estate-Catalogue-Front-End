@@ -1,0 +1,56 @@
+body{
+    min-height: 100vh;
+    height: max-content;
+}
+
+.login-container{
+    height: max-content;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    letter-spacing: 0.25px;
+}
+
+.login-form{
+    display: flex;
+    height: max-content;
+    place-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 45%;
+}
+
+
+.login-btn{
+    width: 80%;
+    max-width: 400px;
+    border: none;
+    height: max-content;
+    padding: 10px;
+}
+
+.input-box{
+    width: 80%;
+    max-width: 400px;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+@media screen and (width <= 786px){
+    .login-form{
+        width: 70%;
+    }
+}
+
+@media screen and (width <= 512px){
+    .login-form{
+        width: 90%;
+    }
+}
