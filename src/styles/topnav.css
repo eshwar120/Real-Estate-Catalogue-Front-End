@@ -1,0 +1,52 @@
+.top-nav {
+    width: 85%;
+    float: right;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #F5F5F5;
+    border-bottom: 5px solid #e1f9f4;
+}
+
+.profile-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.profile-name:hover {
+    color:  #2289FF;
+}
+
+.profile-name svg {
+    margin-top: 6px;
+}
+
+.logout-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 58px;
+    right: 41px;
+    background-color: #FFFFFF;
+    padding: 2px 5px;
+    border-radius: 10px;
+    color: #2289FF;
+    border: 1px solid #2289FF;
+    
+}
+
+.logout-btn:hover{
+    color: white;
+    background-color: #2289FF;
+    /* border:1px solid #2289FF; */
+}
+
+@media screen and (width <= 700px) {
+    .top-nav{
+        flex-direction: column;
+    }
+}

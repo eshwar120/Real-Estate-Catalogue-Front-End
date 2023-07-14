@@ -1,0 +1,198 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #E1F9F4;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.whiteBox {
+
+    background-color: white;
+    /* padding: 10px; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* width: 564px;
+    height: 583px; */
+    margin-left: 338px;
+    margin-right: 338px;
+    margin-top: 60px;
+    margin-bottom: 61px;
+    width: 364px;
+    height: 450px;
+    border-radius: 15px;
+
+}
+
+/* .whiteBox {
+    background-color: white;
+    margin-left: 338px;
+    margin-right: 338px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    width: 364px;
+    height: 383px;
+    border-radius: 10px;
+} */
+
+.whiteBox h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4C57B6;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+}
+
+.whiteBox p {
+    font-size: 8px;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 30px;
+    /* font-family: 'Open Sans'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 22px;
+
+    letter-spacing: 0.25px;
+
+    color: #000000;
+
+    opacity: 0.6;
+    margin-top: 20px;
+}
+
+.inputField11 {
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    width: 290px;
+}
+
+.inputField22 {
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    width: 290px;
+}
+
+/* .inputField3 {
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    width: 290px;
+} */
+
+.whiteBox button {
+    background-color: #4C57B6;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 290px;
+    margin-top: 10px;
+}
+
+.whiteBox button:hover {
+    background-color: #3E47A6;
+}
+
+.signIn {
+    /* font-family: 'Open Sans'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.25px;
+
+    /* #352D66 */
+
+    color: #352D66;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+.signInn {
+    /* font-family: 'Open Sans'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.25px;
+
+    color: #000000;
+
+    opacity: 0.6;
+}
+
+input::placeholder{
+    /* font-family: 'Open Sans'; */
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 18px;
+/* identical to box height, or 120% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.25px;
+
+color: #000000;
+
+opacity: 0.4;
+}
+
+.logoImage2{
+    width: 64px;
+    margin-top: 20px;
+}
