@@ -1,4 +1,4 @@
-# Real Estate Catalogue
+# Real Estate Catalogue (Frontend)
 
 This repository contains the frontend code for a Real Estate Catalogue platform. The platform allows users to list and browse real estate properties that are available for sale.
 
