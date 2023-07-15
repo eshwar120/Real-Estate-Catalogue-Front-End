@@ -67,16 +67,6 @@ To run the Real Estate Catalogue frontend locally, follow these steps:
 
 5. Open your browser and visit `http://localhost:3000` to see the application running.
 
-## Contributing
-
-Contributions to the Real Estate Catalogue project are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
-
-Before contributing, please read the [Contributing Guidelines](CONTRIBUTING.md) for more information.
-
-## License
-
-The Real Estate Catalogue project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
-
 ## Acknowledgments
 
 This project was inspired by the need for a user-friendly platform to list and browse real estate properties for sale. Special thanks to the developers and contributors of the React.js, React Router, Context, and Toastify.js libraries for their amazing work.
